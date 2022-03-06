@@ -106,7 +106,7 @@ public void tc_02() {
 		
 		//Step5
 		Reporter.log("Buscar nombre de usr");
-		driver.findElement(By.id("searchSystemUser_userName")).sendKeys("Admin");
+		driver.findElement(By.id("searchSystemUser_userName")).sendKeys("XYZ");
 		
 		//Step6
 		Reporter.log("Hcer click en buscar usr");
@@ -116,7 +116,7 @@ public void tc_02() {
 		//Step7
 		Reporter.log("verificar nombre del usr en  la tabla");
 		String actualValue = driver.findElement(By.xpath("//tbody/tr[1]/td[2]/a")).getText();
-		Assert.assertEquals(actualValue, "Admin");
+		Assert.assertEquals(actualValue, "No Records Found expected Message");
 		
 		//Step8
 		Reporter.log("Hacer logout");
@@ -127,5 +127,7 @@ public void tc_02() {
 		//Step9
 		Reporter.log("cierra pantalla");
 		driver.close();
+		
+		
 }
 }
