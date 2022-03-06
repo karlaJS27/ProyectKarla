@@ -1,14 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Abrir navegador]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar credenciales]]>
+    </line>
+    <line>
+      <![CDATA[Validar loggin exitoso]]>
+    </line>
+    <line>
+      <![CDATA[seleccionar menu admin]]>
+    </line>
+    <line>
+      <![CDATA[Buscar nombre de usr]]>
+    </line>
+    <line>
+      <![CDATA[Hcer click en buscar usr]]>
+    </line>
+    <line>
+      <![CDATA[verificar nombre del usr en  la tabla]]>
+    </line>
+    <line>
+      <![CDATA[Hacer logout]]>
+    </line>
+    <line>
+      <![CDATA[cierra pantalla]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-02-28T07:17:17Z" name="Default suite" finished-at="2022-02-28T07:17:17Z" duration-ms="76">
+  <suite started-at="2022-03-06T01:50:54Z" name="Default suite" finished-at="2022-03-06T01:51:32Z" duration-ms="38286">
     <groups>
     </groups>
-    <test started-at="2022-02-28T07:17:17Z" name="Default test" finished-at="2022-02-28T07:17:17Z" duration-ms="76">
+    <test started-at="2022-03-06T01:50:54Z" name="Default test" finished-at="2022-03-06T01:51:32Z" duration-ms="38286">
       <class name="com.opensource.qa.AdminJava">
-        <test-method signature="f()[pri:0, instance:com.opensource.qa.AdminJava@783a467b]" started-at="2022-02-28T01:17:17Z" name="f" finished-at="2022-02-28T01:17:17Z" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.opensource.qa.AdminJava@a38c7fe]" started-at="2022-03-05T19:50:54Z" name="beforeTest" finished-at="2022-03-05T19:50:54Z" duration-ms="13" status="PASS">
           <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f()[pri:0, instance:com.opensource.qa.AdminJava@a38c7fe]" started-at="2022-03-05T19:50:54Z" name="f" finished-at="2022-03-05T19:51:32Z" duration-ms="38239" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Abrir navegador]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar credenciales]]>
+            </line>
+            <line>
+              <![CDATA[Validar loggin exitoso]]>
+            </line>
+            <line>
+              <![CDATA[seleccionar menu admin]]>
+            </line>
+            <line>
+              <![CDATA[Buscar nombre de usr]]>
+            </line>
+            <line>
+              <![CDATA[Hcer click en buscar usr]]>
+            </line>
+            <line>
+              <![CDATA[verificar nombre del usr en  la tabla]]>
+            </line>
+            <line>
+              <![CDATA[Hacer logout]]>
+            </line>
+            <line>
+              <![CDATA[cierra pantalla]]>
+            </line>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- com.opensource.qa.AdminJava -->
