@@ -9,7 +9,7 @@ import navegationPages.LoginPage;
 import navegationPages.PaginaInicio;
 import setupDriver.DriverSetup;
 
-public class CrearPerfil {
+public class TC_02_CrearPerfil {
 	
 	WebDriver driver = DriverSetup.setupDriver();
 	
