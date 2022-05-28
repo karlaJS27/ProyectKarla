@@ -1,75 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[Abrir navegador]]>
-    </line>
-    <line>
-      <![CDATA[Ingresar credenciales]]>
-    </line>
-    <line>
-      <![CDATA[Validar loggin exitoso]]>
-    </line>
-    <line>
-      <![CDATA[seleccionar menu admin]]>
-    </line>
-    <line>
-      <![CDATA[Buscar nombre de usr]]>
-    </line>
-    <line>
-      <![CDATA[Hcer click en buscar usr]]>
-    </line>
-    <line>
-      <![CDATA[verificar nombre del usr en  la tabla]]>
-    </line>
-    <line>
-      <![CDATA[Hacer logout]]>
-    </line>
-    <line>
-      <![CDATA[cierra pantalla]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-03-06T01:50:54Z" name="Default suite" finished-at="2022-03-06T01:51:32Z" duration-ms="38286">
+  <suite name="Default suite" duration-ms="4032" started-at="2022-05-28T16:35:04Z" finished-at="2022-05-28T16:35:08Z">
     <groups>
     </groups>
-    <test started-at="2022-03-06T01:50:54Z" name="Default test" finished-at="2022-03-06T01:51:32Z" duration-ms="38286">
-      <class name="com.opensource.qa.AdminJava">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.opensource.qa.AdminJava@a38c7fe]" started-at="2022-03-05T19:50:54Z" name="beforeTest" finished-at="2022-03-05T19:50:54Z" duration-ms="13" status="PASS">
+    <test name="Default test" duration-ms="4032" started-at="2022-05-28T16:35:04Z" finished-at="2022-05-28T16:35:08Z">
+      <class name="dasboard.CrearPerfil">
+        <test-method status="PASS" signature="startWebDriber()[pri:0, instance:dasboard.CrearPerfil@5cdec700]" name="startWebDriber" is-config="true" duration-ms="1159" started-at="2022-05-28T11:35:04Z" finished-at="2022-05-28T11:35:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="f()[pri:0, instance:com.opensource.qa.AdminJava@a38c7fe]" started-at="2022-03-05T19:50:54Z" name="f" finished-at="2022-03-05T19:51:32Z" duration-ms="38239" status="PASS">
+        </test-method> <!-- startWebDriber -->
+        <test-method status="PASS" signature="TC_02()[pri:0, instance:dasboard.CrearPerfil@5cdec700]" name="TC_02" duration-ms="2855" started-at="2022-05-28T11:35:06Z" finished-at="2022-05-28T11:35:08Z">
           <reporter-output>
-            <line>
-              <![CDATA[Abrir navegador]]>
-            </line>
-            <line>
-              <![CDATA[Ingresar credenciales]]>
-            </line>
-            <line>
-              <![CDATA[Validar loggin exitoso]]>
-            </line>
-            <line>
-              <![CDATA[seleccionar menu admin]]>
-            </line>
-            <line>
-              <![CDATA[Buscar nombre de usr]]>
-            </line>
-            <line>
-              <![CDATA[Hcer click en buscar usr]]>
-            </line>
-            <line>
-              <![CDATA[verificar nombre del usr en  la tabla]]>
-            </line>
-            <line>
-              <![CDATA[Hacer logout]]>
-            </line>
-            <line>
-              <![CDATA[cierra pantalla]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- com.opensource.qa.AdminJava -->
+        </test-method> <!-- TC_02 -->
+      </class> <!-- dasboard.CrearPerfil -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
